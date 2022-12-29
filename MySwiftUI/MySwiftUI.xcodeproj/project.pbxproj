@@ -15,6 +15,10 @@
 		0A34F225295BAC0400AC6692 /* WebViewButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A34F224295BAC0400AC6692 /* WebViewButtons.swift */; };
 		0A34F228295BAD5F00AC6692 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A34F227295BAD5F00AC6692 /* SafariView.swift */; };
 		0A34F232295C5D3200AC6692 /* CallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A34F231295C5D3200AC6692 /* CallButton.swift */; };
+		0AADB1F1295DD6DB00632A2A /* CustomFontsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AADB1F0295DD6DB00632A2A /* CustomFontsView.swift */; };
+		0AADB1F7295DDC4600632A2A /* appetite.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AADB1E9295DD53300632A2A /* appetite.ttf */; };
+		0AADB1F8295DDC4900632A2A /* Equinox Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AADB1F3295DDAF000632A2A /* Equinox Bold.otf */; };
+		0AADB1F9295DDC4B00632A2A /* Equinox Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AADB1F2295DDAF000632A2A /* Equinox Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,11 @@
 		0A34F224295BAC0400AC6692 /* WebViewButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewButtons.swift; sourceTree = "<group>"; };
 		0A34F227295BAD5F00AC6692 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		0A34F231295C5D3200AC6692 /* CallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallButton.swift; sourceTree = "<group>"; };
+		0AADB1E8295DD4B600632A2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0AADB1E9295DD53300632A2A /* appetite.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = appetite.ttf; sourceTree = "<group>"; };
+		0AADB1F0295DD6DB00632A2A /* CustomFontsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontsView.swift; sourceTree = "<group>"; };
+		0AADB1F2295DDAF000632A2A /* Equinox Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Equinox Regular.otf"; sourceTree = "<group>"; };
+		0AADB1F3295DDAF000632A2A /* Equinox Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Equinox Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +68,12 @@
 		0A34F212295BAB4100AC6692 /* MySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				0AADB1E8295DD4B600632A2A /* Info.plist */,
 				0A34F213295BAB4100AC6692 /* MySwiftUIApp.swift */,
 				0A34F215295BAB4100AC6692 /* ContentView.swift */,
 				0A34F221295BAB6A00AC6692 /* View */,
 				0A34F217295BAB4200AC6692 /* Assets.xcassets */,
+				0AADB1EF295DD6B600632A2A /* CustomFonts */,
 				0A34F219295BAB4200AC6692 /* Preview Content */,
 			);
 			path = MySwiftUI;
@@ -109,6 +120,25 @@
 				0A34F231295C5D3200AC6692 /* CallButton.swift */,
 			);
 			path = CallButton;
+			sourceTree = "<group>";
+		};
+		0AADB1E7295DD43800632A2A /* MyFonts */ = {
+			isa = PBXGroup;
+			children = (
+				0AADB1E9295DD53300632A2A /* appetite.ttf */,
+				0AADB1F3295DDAF000632A2A /* Equinox Bold.otf */,
+				0AADB1F2295DDAF000632A2A /* Equinox Regular.otf */,
+			);
+			path = MyFonts;
+			sourceTree = "<group>";
+		};
+		0AADB1EF295DD6B600632A2A /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				0AADB1F0295DD6DB00632A2A /* CustomFontsView.swift */,
+				0AADB1E7295DD43800632A2A /* MyFonts */,
+			);
+			path = CustomFonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,7 +199,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AADB1F7295DDC4600632A2A /* appetite.ttf in Resources */,
+				0AADB1F8295DDC4900632A2A /* Equinox Bold.otf in Resources */,
 				0A34F21B295BAB4200AC6692 /* Preview Assets.xcassets in Resources */,
+				0AADB1F9295DDC4B00632A2A /* Equinox Regular.otf in Resources */,
 				0A34F218295BAB4200AC6692 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,6 +216,7 @@
 			files = (
 				0A34F223295BABA000AC6692 /* WebView.swift in Sources */,
 				0A34F216295BAB4100AC6692 /* ContentView.swift in Sources */,
+				0AADB1F1295DD6DB00632A2A /* CustomFontsView.swift in Sources */,
 				0A34F214295BAB4100AC6692 /* MySwiftUIApp.swift in Sources */,
 				0A34F232295C5D3200AC6692 /* CallButton.swift in Sources */,
 				0A34F225295BAC0400AC6692 /* WebViewButtons.swift in Sources */,
@@ -318,9 +352,11 @@
 				DEVELOPMENT_TEAM = SK7334S258;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MySwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -347,9 +383,11 @@
 				DEVELOPMENT_TEAM = SK7334S258;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MySwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
