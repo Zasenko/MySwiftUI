@@ -17,7 +17,7 @@ struct CallButton: View {
             UIApplication.shared.open(url)
         } label: {
             Text("Call")
-             .foregroundColor(.blue)
+                .foregroundColor(.blue)
         }
     }
 }
