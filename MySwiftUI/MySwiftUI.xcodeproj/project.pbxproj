@@ -27,13 +27,13 @@
 		0A71413B299D7D3F00406821 /* StiffNessBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71413A299D7D3F00406821 /* StiffNessBounce.swift */; };
 		0A71413D299D7D6A00406821 /* StiffnessDamping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71413C299D7D6A00406821 /* StiffnessDamping.swift */; };
 		0A71413F299D7DEA00406821 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71413E299D7DEA00406821 /* Recording.swift */; };
+		0A93031729A3C40500C558A8 /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93031629A3C40500C558A8 /* CustomToggle.swift */; };
 		0AADB1F1295DD6DB00632A2A /* CustomFontsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AADB1F0295DD6DB00632A2A /* CustomFontsView.swift */; };
 		0AADB1F7295DDC4600632A2A /* appetite.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AADB1E9295DD53300632A2A /* appetite.ttf */; };
 		0AADB1F8295DDC4900632A2A /* Equinox Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AADB1F3295DDAF000632A2A /* Equinox Bold.otf */; };
 		0AADB1F9295DDC4B00632A2A /* Equinox Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AADB1F2295DDAF000632A2A /* Equinox Regular.otf */; };
 		0AD1A780299EABBE004B88AA /* FaceIDLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD1A77F299EABBE004B88AA /* FaceIDLoginView.swift */; };
 		0AD1A782299EAD5F004B88AA /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD1A781299EAD5F004B88AA /* AppContext.swift */; };
-
 		0FD0858D29716FD4009F3DC7 /* ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0858C29716FD4009F3DC7 /* ScrollViewReader.swift */; };
 		0FDF12EA296F428C0014A838 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF12E9296F428C0014A838 /* CalendarView.swift */; };
 /* End PBXBuildFile section */
@@ -60,6 +60,7 @@
 		0A71413A299D7D3F00406821 /* StiffNessBounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StiffNessBounce.swift; sourceTree = "<group>"; };
 		0A71413C299D7D6A00406821 /* StiffnessDamping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StiffnessDamping.swift; sourceTree = "<group>"; };
 		0A71413E299D7DEA00406821 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
+		0A93031629A3C40500C558A8 /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
 		0AADB1E8295DD4B600632A2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0AADB1E9295DD53300632A2A /* appetite.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = appetite.ttf; sourceTree = "<group>"; };
 		0AADB1F0295DD6DB00632A2A /* CustomFontsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontsView.swift; sourceTree = "<group>"; };
@@ -67,7 +68,6 @@
 		0AADB1F3295DDAF000632A2A /* Equinox Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Equinox Bold.otf"; sourceTree = "<group>"; };
 		0AD1A77F299EABBE004B88AA /* FaceIDLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDLoginView.swift; sourceTree = "<group>"; };
 		0AD1A781299EAD5F004B88AA /* AppContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
-
 		0FD0858C29716FD4009F3DC7 /* ScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader.swift; sourceTree = "<group>"; };
 		0FDF12E9296F428C0014A838 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,8 +108,8 @@
 				0AD1A77A299EAB47004B88AA /* FaceID and TouchID */,
 				0A714128299AC12A00406821 /* Animations */,
 				0A34F221295BAB6A00AC6692 /* View */,
-				0A34F217295BAB4200AC6692 /* Assets.xcassets */,
 				0AADB1EF295DD6B600632A2A /* CustomFonts */,
+				0A34F217295BAB4200AC6692 /* Assets.xcassets */,
 				0A34F219295BAB4200AC6692 /* Preview Content */,
 			);
 			path = MySwiftUI;
@@ -126,12 +126,12 @@
 		0A34F221295BAB6A00AC6692 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0AD1A7A229A3C1B2004B88AA /* Toggle */,
 				0A71411F2999105F00406821 /* TextField */,
 				0A34F226295BAC6200AC6692 /* WebView */,
 				0A34F230295C5CF000AC6692 /* CallButton */,
 				0FDF12E8296F426E0014A838 /* Calendar */,
 				0FD0858E29717004009F3DC7 /* ScrollView */,
+				0A93031829A3C42400C558A8 /* CustomToggle */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -196,6 +196,14 @@
 			path = Spring;
 			sourceTree = "<group>";
 		};
+		0A93031829A3C42400C558A8 /* CustomToggle */ = {
+			isa = PBXGroup;
+			children = (
+				0A93031629A3C40500C558A8 /* CustomToggle.swift */,
+			);
+			path = CustomToggle;
+			sourceTree = "<group>";
+		};
 		0AADB1E7295DD43800632A2A /* MyFonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,7 +246,6 @@
 				0AD1A781299EAD5F004B88AA /* AppContext.swift */,
 			);
 			path = ViewModel;
-
 			sourceTree = "<group>";
 		};
 		0FD0858E29717004009F3DC7 /* ScrollView */ = {
@@ -344,11 +351,11 @@
 				0A714133299AD07300406821 /* ReactionsSpringsWithParameters.swift in Sources */,
 				0AADB1F1295DD6DB00632A2A /* CustomFontsView.swift in Sources */,
 				0FD0858D29716FD4009F3DC7 /* ScrollViewReader.swift in Sources */,
-				0AD1A7A429A3C1C4004B88AA /* CustomToggle.swift in Sources */,
 				0A34F214295BAB4100AC6692 /* MySwiftUIApp.swift in Sources */,
 				0A714135299AD40F00406821 /* DampingFractionTypes.swift in Sources */,
 				0A71412B299AC15400406821 /* ChainedSpring.swift in Sources */,
 				0A34F232295C5D3200AC6692 /* CallButton.swift in Sources */,
+				0A93031729A3C40500C558A8 /* CustomToggle.swift in Sources */,
 				0A34F225295BAC0400AC6692 /* WebViewButtons.swift in Sources */,
 				0A7141212999108300406821 /* Multi-line-TextField.swift in Sources */,
 				0A34F228295BAD5F00AC6692 /* SafariView.swift in Sources */,
