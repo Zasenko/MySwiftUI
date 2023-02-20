@@ -27,6 +27,7 @@
 		0A71413B299D7D3F00406821 /* StiffNessBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71413A299D7D3F00406821 /* StiffNessBounce.swift */; };
 		0A71413D299D7D6A00406821 /* StiffnessDamping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71413C299D7D6A00406821 /* StiffnessDamping.swift */; };
 		0A71413F299D7DEA00406821 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71413E299D7DEA00406821 /* Recording.swift */; };
+		0A77D00629A3C650007428E2 /* SnapToCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A77D00529A3C650007428E2 /* SnapToCorners.swift */; };
 		0A93031729A3C40500C558A8 /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93031629A3C40500C558A8 /* CustomToggle.swift */; };
 		0AADB1F1295DD6DB00632A2A /* CustomFontsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AADB1F0295DD6DB00632A2A /* CustomFontsView.swift */; };
 		0AADB1F7295DDC4600632A2A /* appetite.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AADB1E9295DD53300632A2A /* appetite.ttf */; };
@@ -60,6 +61,7 @@
 		0A71413A299D7D3F00406821 /* StiffNessBounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StiffNessBounce.swift; sourceTree = "<group>"; };
 		0A71413C299D7D6A00406821 /* StiffnessDamping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StiffnessDamping.swift; sourceTree = "<group>"; };
 		0A71413E299D7DEA00406821 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
+		0A77D00529A3C650007428E2 /* SnapToCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapToCorners.swift; sourceTree = "<group>"; };
 		0A93031629A3C40500C558A8 /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
 		0AADB1E8295DD4B600632A2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0AADB1E9295DD53300632A2A /* appetite.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = appetite.ttf; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 		0A714128299AC12A00406821 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				0A77D00429A3C62B007428E2 /* View Position */,
 				0A714129299AC13400406821 /* Spring */,
 			);
 			path = Animations;
@@ -194,6 +197,14 @@
 				0A71413E299D7DEA00406821 /* Recording.swift */,
 			);
 			path = Spring;
+			sourceTree = "<group>";
+		};
+		0A77D00429A3C62B007428E2 /* View Position */ = {
+			isa = PBXGroup;
+			children = (
+				0A77D00529A3C650007428E2 /* SnapToCorners.swift */,
+			);
+			path = "View Position";
 			sourceTree = "<group>";
 		};
 		0A93031829A3C42400C558A8 /* CustomToggle */ = {
@@ -350,6 +361,7 @@
 				0FDF12EA296F428C0014A838 /* CalendarView.swift in Sources */,
 				0A714133299AD07300406821 /* ReactionsSpringsWithParameters.swift in Sources */,
 				0AADB1F1295DD6DB00632A2A /* CustomFontsView.swift in Sources */,
+				0A77D00629A3C650007428E2 /* SnapToCorners.swift in Sources */,
 				0FD0858D29716FD4009F3DC7 /* ScrollViewReader.swift in Sources */,
 				0A34F214295BAB4100AC6692 /* MySwiftUIApp.swift in Sources */,
 				0A714135299AD40F00406821 /* DampingFractionTypes.swift in Sources */,
