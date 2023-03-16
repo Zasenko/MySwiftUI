@@ -15,6 +15,7 @@
 		0A34F225295BAC0400AC6692 /* WebViewButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A34F224295BAC0400AC6692 /* WebViewButtons.swift */; };
 		0A34F228295BAD5F00AC6692 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A34F227295BAD5F00AC6692 /* SafariView.swift */; };
 		0A34F232295C5D3200AC6692 /* CallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A34F231295C5D3200AC6692 /* CallButton.swift */; };
+		0A380DF129B797410072DD48 /* CoreImageBasicFiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A380DF029B797410072DD48 /* CoreImageBasicFiltersView.swift */; };
 		0A7141212999108300406821 /* Multi-line-TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7141202999108300406821 /* Multi-line-TextField.swift */; };
 		0A71412B299AC15400406821 /* ChainedSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71412A299AC15400406821 /* ChainedSpring.swift */; };
 		0A71412D299ACCEF00406821 /* BouncyHamburger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71412C299ACCEF00406821 /* BouncyHamburger.swift */; };
@@ -49,6 +50,7 @@
 		0A34F224295BAC0400AC6692 /* WebViewButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewButtons.swift; sourceTree = "<group>"; };
 		0A34F227295BAD5F00AC6692 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		0A34F231295C5D3200AC6692 /* CallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallButton.swift; sourceTree = "<group>"; };
+		0A380DF029B797410072DD48 /* CoreImageBasicFiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageBasicFiltersView.swift; sourceTree = "<group>"; };
 		0A7141202999108300406821 /* Multi-line-TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Multi-line-TextField.swift"; sourceTree = "<group>"; };
 		0A71412A299AC15400406821 /* ChainedSpring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainedSpring.swift; sourceTree = "<group>"; };
 		0A71412C299ACCEF00406821 /* BouncyHamburger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncyHamburger.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				0AADB1E8295DD4B600632A2A /* Info.plist */,
 				0A34F213295BAB4100AC6692 /* MySwiftUIApp.swift */,
 				0A34F215295BAB4100AC6692 /* ContentView.swift */,
+				0A380DEF29B7972B0072DD48 /* CoreImage */,
 				0AD1A77A299EAB47004B88AA /* FaceID and TouchID */,
 				0A714128299AC12A00406821 /* Animations */,
 				0A34F221295BAB6A00AC6692 /* View */,
@@ -162,6 +165,14 @@
 				0A34F231295C5D3200AC6692 /* CallButton.swift */,
 			);
 			path = CallButton;
+			sourceTree = "<group>";
+		};
+		0A380DEF29B7972B0072DD48 /* CoreImage */ = {
+			isa = PBXGroup;
+			children = (
+				0A380DF029B797410072DD48 /* CoreImageBasicFiltersView.swift */,
+			);
+			path = CoreImage;
 			sourceTree = "<group>";
 		};
 		0A71411F2999105F00406821 /* TextField */ = {
@@ -370,6 +381,7 @@
 				0A93031729A3C40500C558A8 /* CustomToggle.swift in Sources */,
 				0A34F225295BAC0400AC6692 /* WebViewButtons.swift in Sources */,
 				0A7141212999108300406821 /* Multi-line-TextField.swift in Sources */,
+				0A380DF129B797410072DD48 /* CoreImageBasicFiltersView.swift in Sources */,
 				0A34F228295BAD5F00AC6692 /* SafariView.swift in Sources */,
 				0A71412D299ACCEF00406821 /* BouncyHamburger.swift in Sources */,
 				0A71413F299D7DEA00406821 /* Recording.swift in Sources */,
