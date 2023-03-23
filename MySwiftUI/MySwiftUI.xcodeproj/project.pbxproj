@@ -36,7 +36,9 @@
 		0AADB1F9295DDC4B00632A2A /* Equinox Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AADB1F2295DDAF000632A2A /* Equinox Regular.otf */; };
 		0AD1A780299EABBE004B88AA /* FaceIDLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD1A77F299EABBE004B88AA /* FaceIDLoginView.swift */; };
 		0AD1A782299EAD5F004B88AA /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD1A781299EAD5F004B88AA /* AppContext.swift */; };
-		0FD0858D29716FD4009F3DC7 /* ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0858C29716FD4009F3DC7 /* ScrollViewReader.swift */; };
+		0F1A7D1B29CC8F3B00D701C3 /* GeometryReader-frames-and-coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D1A29CC8F3B00D701C3 /* GeometryReader-frames-and-coordinates.swift */; };
+		0F1A7D1E29CC8F6D00D701C3 /* ScrollView+GeometryReader-effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D1C29CC8F6D00D701C3 /* ScrollView+GeometryReader-effects.swift */; };
+		0F1A7D1F29CC8F6D00D701C3 /* ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D1D29CC8F6D00D701C3 /* ScrollViewReader.swift */; };
 		0FDF12EA296F428C0014A838 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF12E9296F428C0014A838 /* CalendarView.swift */; };
 /* End PBXBuildFile section */
 
@@ -72,7 +74,9 @@
 		0AADB1F3295DDAF000632A2A /* Equinox Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Equinox Bold.otf"; sourceTree = "<group>"; };
 		0AD1A77F299EABBE004B88AA /* FaceIDLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDLoginView.swift; sourceTree = "<group>"; };
 		0AD1A781299EAD5F004B88AA /* AppContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
-		0FD0858C29716FD4009F3DC7 /* ScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader.swift; sourceTree = "<group>"; };
+		0F1A7D1A29CC8F3B00D701C3 /* GeometryReader-frames-and-coordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GeometryReader-frames-and-coordinates.swift"; sourceTree = "<group>"; };
+		0F1A7D1C29CC8F6D00D701C3 /* ScrollView+GeometryReader-effects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScrollView+GeometryReader-effects.swift"; sourceTree = "<group>"; };
+		0F1A7D1D29CC8F6D00D701C3 /* ScrollViewReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewReader.swift; sourceTree = "<group>"; };
 		0FDF12E9296F428C0014A838 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +141,7 @@
 				0FDF12E8296F426E0014A838 /* Calendar */,
 				0FD0858E29717004009F3DC7 /* ScrollView */,
 				0A93031829A3C42400C558A8 /* CustomToggle */,
+				0F1A7D1929CC8F3B00D701C3 /* Geometry Reader */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -270,10 +275,19 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		0F1A7D1929CC8F3B00D701C3 /* Geometry Reader */ = {
+			isa = PBXGroup;
+			children = (
+				0F1A7D1A29CC8F3B00D701C3 /* GeometryReader-frames-and-coordinates.swift */,
+			);
+			path = "Geometry Reader";
+			sourceTree = "<group>";
+		};
 		0FD0858E29717004009F3DC7 /* ScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				0FD0858C29716FD4009F3DC7 /* ScrollViewReader.swift */,
+				0F1A7D1D29CC8F6D00D701C3 /* ScrollViewReader.swift */,
+				0F1A7D1C29CC8F6D00D701C3 /* ScrollView+GeometryReader-effects.swift */,
 			);
 			path = ScrollView;
 			sourceTree = "<group>";
@@ -373,10 +387,12 @@
 				0A714133299AD07300406821 /* ReactionsSpringsWithParameters.swift in Sources */,
 				0AADB1F1295DD6DB00632A2A /* CustomFontsView.swift in Sources */,
 				0A77D00629A3C650007428E2 /* SnapToCorners.swift in Sources */,
-				0FD0858D29716FD4009F3DC7 /* ScrollViewReader.swift in Sources */,
 				0A34F214295BAB4100AC6692 /* MySwiftUIApp.swift in Sources */,
+				0F1A7D1E29CC8F6D00D701C3 /* ScrollView+GeometryReader-effects.swift in Sources */,
 				0A714135299AD40F00406821 /* DampingFractionTypes.swift in Sources */,
 				0A71412B299AC15400406821 /* ChainedSpring.swift in Sources */,
+				0F1A7D1F29CC8F6D00D701C3 /* ScrollViewReader.swift in Sources */,
+				0F1A7D1B29CC8F3B00D701C3 /* GeometryReader-frames-and-coordinates.swift in Sources */,
 				0A34F232295C5D3200AC6692 /* CallButton.swift in Sources */,
 				0A93031729A3C40500C558A8 /* CustomToggle.swift in Sources */,
 				0A34F225295BAC0400AC6692 /* WebViewButtons.swift in Sources */,
