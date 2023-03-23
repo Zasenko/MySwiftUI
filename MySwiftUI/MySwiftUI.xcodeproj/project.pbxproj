@@ -40,6 +40,10 @@
 		0F1A7D1E29CC8F6D00D701C3 /* ScrollView+GeometryReader-effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D1C29CC8F6D00D701C3 /* ScrollView+GeometryReader-effects.swift */; };
 		0F1A7D1F29CC8F6D00D701C3 /* ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D1D29CC8F6D00D701C3 /* ScrollViewReader.swift */; };
 		0F1A7D2229CC90C000D701C3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2129CC90C000D701C3 /* LoginView.swift */; };
+		0F1A7D2429CC9A6D00D701C3 /* LoginViewShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2329CC9A6D00D701C3 /* LoginViewShakeEffect.swift */; };
+		0F1A7D2829CC9AE400D701C3 /* LoginWithCheck+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2729CC9AE400D701C3 /* LoginWithCheck+Combine.swift */; };
+		0F1A7D2A29CC9AFF00D701C3 /* ValidationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2929CC9AFF00D701C3 /* ValidationType.swift */; };
+		0F1A7D2C29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */; };
 		0FDF12EA296F428C0014A838 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF12E9296F428C0014A838 /* CalendarView.swift */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +83,10 @@
 		0F1A7D1C29CC8F6D00D701C3 /* ScrollView+GeometryReader-effects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScrollView+GeometryReader-effects.swift"; sourceTree = "<group>"; };
 		0F1A7D1D29CC8F6D00D701C3 /* ScrollViewReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewReader.swift; sourceTree = "<group>"; };
 		0F1A7D2129CC90C000D701C3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0F1A7D2329CC9A6D00D701C3 /* LoginViewShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewShakeEffect.swift; sourceTree = "<group>"; };
+		0F1A7D2729CC9AE400D701C3 /* LoginWithCheck+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginWithCheck+Combine.swift"; sourceTree = "<group>"; };
+		0F1A7D2929CC9AFF00D701C3 /* ValidationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationType.swift; sourceTree = "<group>"; };
+		0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithCheckCombineViewModel.swift; sourceTree = "<group>"; };
 		0FDF12E9296F428C0014A838 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,7 +145,7 @@
 		0A34F221295BAB6A00AC6692 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0F1A7D2029CC905000D701C3 /* Login */,
+				0F1A7D2529CC9ABB00D701C3 /* Auth */,
 				0A71411F2999105F00406821 /* TextField */,
 				0A34F226295BAC6200AC6692 /* WebView */,
 				0A34F230295C5CF000AC6692 /* CallButton */,
@@ -286,12 +294,32 @@
 			path = "Geometry Reader";
 			sourceTree = "<group>";
 		};
-		0F1A7D2029CC905000D701C3 /* Login */ = {
+		0F1A7D2029CC905000D701C3 /* LoginWithShaking */ = {
 			isa = PBXGroup;
 			children = (
 				0F1A7D2129CC90C000D701C3 /* LoginView.swift */,
+				0F1A7D2329CC9A6D00D701C3 /* LoginViewShakeEffect.swift */,
 			);
-			path = Login;
+			path = LoginWithShaking;
+			sourceTree = "<group>";
+		};
+		0F1A7D2529CC9ABB00D701C3 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				0F1A7D2029CC905000D701C3 /* LoginWithShaking */,
+				0F1A7D2629CC9AC100D701C3 /* LoginWithCheck+Combine */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		0F1A7D2629CC9AC100D701C3 /* LoginWithCheck+Combine */ = {
+			isa = PBXGroup;
+			children = (
+				0F1A7D2729CC9AE400D701C3 /* LoginWithCheck+Combine.swift */,
+				0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */,
+				0F1A7D2929CC9AFF00D701C3 /* ValidationType.swift */,
+			);
+			path = "LoginWithCheck+Combine";
 			sourceTree = "<group>";
 		};
 		0FD0858E29717004009F3DC7 /* ScrollView */ = {
@@ -392,10 +420,13 @@
 				0A71413B299D7D3F00406821 /* StiffNessBounce.swift in Sources */,
 				0A71413D299D7D6A00406821 /* StiffnessDamping.swift in Sources */,
 				0A714131299AD05100406821 /* InteractiveSpring.swift in Sources */,
+				0F1A7D2829CC9AE400D701C3 /* LoginWithCheck+Combine.swift in Sources */,
+				0F1A7D2C29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift in Sources */,
 				0AD1A780299EABBE004B88AA /* FaceIDLoginView.swift in Sources */,
 				0A34F216295BAB4100AC6692 /* ContentView.swift in Sources */,
 				0A71412F299AD02E00406821 /* Spring.swift in Sources */,
 				0FDF12EA296F428C0014A838 /* CalendarView.swift in Sources */,
+				0F1A7D2429CC9A6D00D701C3 /* LoginViewShakeEffect.swift in Sources */,
 				0A714133299AD07300406821 /* ReactionsSpringsWithParameters.swift in Sources */,
 				0AADB1F1295DD6DB00632A2A /* CustomFontsView.swift in Sources */,
 				0A77D00629A3C650007428E2 /* SnapToCorners.swift in Sources */,
@@ -410,6 +441,7 @@
 				0A34F225295BAC0400AC6692 /* WebViewButtons.swift in Sources */,
 				0A7141212999108300406821 /* Multi-line-TextField.swift in Sources */,
 				0A380DF129B797410072DD48 /* CoreImageBasicFiltersView.swift in Sources */,
+				0F1A7D2A29CC9AFF00D701C3 /* ValidationType.swift in Sources */,
 				0A34F228295BAD5F00AC6692 /* SafariView.swift in Sources */,
 				0A71412D299ACCEF00406821 /* BouncyHamburger.swift in Sources */,
 				0A71413F299D7DEA00406821 /* Recording.swift in Sources */,

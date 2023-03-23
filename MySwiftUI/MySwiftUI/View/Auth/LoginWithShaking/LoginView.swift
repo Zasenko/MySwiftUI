@@ -48,7 +48,7 @@ struct LoginView: View {
                     .foregroundColor(invalidAttempts == 0 ? .clear : .red)
             }
             .padding(.bottom, 20)
-            .modifier(ShakeEffect(animatableData: CGFloat(invalidAttempts)))
+            .modifier(LoginViewShakeEffect(animatableData: CGFloat(invalidAttempts)))
 
             Button {
                 //forgot pass
@@ -82,7 +82,6 @@ struct LoginView: View {
 
             }
             .padding()
-
         }
         .padding()
         .background(.yellow)
@@ -92,21 +91,5 @@ struct LoginView: View {
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
         LoginView()
-    }
-}
-
-
-struct ShakeEffect: GeometryEffect {
-    var travelDistance: CGFloat = 6
-    var numOfShakes: CGFloat = 4
-    var animatableData: CGFloat
-    
-    init(travelDistance: CGFloat = 6, numOfShakes: CGFloat = 4, animatableData: CGFloat) {
-        self.travelDistance = travelDistance
-        self.numOfShakes = numOfShakes
-        self.animatableData = animatableData
-    }
-    func effectValue(size: CGSize) -> ProjectionTransform {
-        ProjectionTransform(CGAffineTransform(translationX: travelDistance * sin(animatableData * .pi * numOfShakes), y: 0))
     }
 }
