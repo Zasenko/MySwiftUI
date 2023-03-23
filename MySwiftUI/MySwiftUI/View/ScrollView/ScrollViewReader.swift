@@ -15,26 +15,33 @@ struct ScrollViewReaderSimple: View {
     var body: some View {
         ScrollViewReader { proxy in
             ScrollView {
-                Button("Scroll to Bottom") {
-                    withAnimation {
-                        proxy.scrollTo(bottomID)
+                ZStack {
+                    VStack(spacing: 0) {
+                        ForEach(0..<200) { i in
+                            color(fraction: Double(i) / 100)
+                                .frame(height: 50)
+                        }
+                    }
+                    VStack {
+                        Button("Scroll to Bottom") {
+                            withAnimation {
+                                proxy.scrollTo(bottomID)
+                            }
+                        }
+                        .id(topID)
+                        Spacer()
+                        Button("Top") {
+                            withAnimation {
+                                proxy.scrollTo(topID)
+                            }
+                        }
+                        .id(bottomID)
                     }
                 }
-                .id(topID)
                 
-                VStack(spacing: 0) {
-                    ForEach(0..<200) { i in
-                        color(fraction: Double(i) / 100)
-                            .frame(height: 50)
-                    }
-                }
                 
-                Button("Top") {
-                    withAnimation {
-                        proxy.scrollTo(topID)
-                    }
-                }
-                .id(bottomID)
+                
+                
             }
         }
     }
