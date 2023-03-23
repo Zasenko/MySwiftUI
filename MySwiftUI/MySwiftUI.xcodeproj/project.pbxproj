@@ -39,6 +39,7 @@
 		0F1A7D1B29CC8F3B00D701C3 /* GeometryReader-frames-and-coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D1A29CC8F3B00D701C3 /* GeometryReader-frames-and-coordinates.swift */; };
 		0F1A7D1E29CC8F6D00D701C3 /* ScrollView+GeometryReader-effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D1C29CC8F6D00D701C3 /* ScrollView+GeometryReader-effects.swift */; };
 		0F1A7D1F29CC8F6D00D701C3 /* ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D1D29CC8F6D00D701C3 /* ScrollViewReader.swift */; };
+		0F1A7D2229CC90C000D701C3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2129CC90C000D701C3 /* LoginView.swift */; };
 		0FDF12EA296F428C0014A838 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF12E9296F428C0014A838 /* CalendarView.swift */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,7 @@
 		0F1A7D1A29CC8F3B00D701C3 /* GeometryReader-frames-and-coordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GeometryReader-frames-and-coordinates.swift"; sourceTree = "<group>"; };
 		0F1A7D1C29CC8F6D00D701C3 /* ScrollView+GeometryReader-effects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScrollView+GeometryReader-effects.swift"; sourceTree = "<group>"; };
 		0F1A7D1D29CC8F6D00D701C3 /* ScrollViewReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewReader.swift; sourceTree = "<group>"; };
+		0F1A7D2129CC90C000D701C3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		0FDF12E9296F428C0014A838 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,6 +137,7 @@
 		0A34F221295BAB6A00AC6692 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0F1A7D2029CC905000D701C3 /* Login */,
 				0A71411F2999105F00406821 /* TextField */,
 				0A34F226295BAC6200AC6692 /* WebView */,
 				0A34F230295C5CF000AC6692 /* CallButton */,
@@ -283,6 +286,14 @@
 			path = "Geometry Reader";
 			sourceTree = "<group>";
 		};
+		0F1A7D2029CC905000D701C3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0F1A7D2129CC90C000D701C3 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		0FD0858E29717004009F3DC7 /* ScrollView */ = {
 			isa = PBXGroup;
 			children = (
@@ -374,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A34F223295BABA000AC6692 /* WebView.swift in Sources */,
+				0F1A7D2229CC90C000D701C3 /* LoginView.swift in Sources */,
 				0AD1A782299EAD5F004B88AA /* AppContext.swift in Sources */,
 				0A714139299D7D1000406821 /* DampingFractionBounce.swift in Sources */,
 				0A714137299D7BEB00406821 /* ReactionsView.swift in Sources */,
