@@ -44,6 +44,7 @@
 		0F1A7D2829CC9AE400D701C3 /* LoginWithCheck+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2729CC9AE400D701C3 /* LoginWithCheck+Combine.swift */; };
 		0F1A7D2A29CC9AFF00D701C3 /* ValidationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2929CC9AFF00D701C3 /* ValidationType.swift */; };
 		0F1A7D2C29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */; };
+		0FD657FB29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD657FA29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift */; };
 		0FDF12EA296F428C0014A838 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF12E9296F428C0014A838 /* CalendarView.swift */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +88,7 @@
 		0F1A7D2729CC9AE400D701C3 /* LoginWithCheck+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginWithCheck+Combine.swift"; sourceTree = "<group>"; };
 		0F1A7D2929CC9AFF00D701C3 /* ValidationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationType.swift; sourceTree = "<group>"; };
 		0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithCheckCombineViewModel.swift; sourceTree = "<group>"; };
+		0FD657FA29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFocAndKeyboardDismiss.swift; sourceTree = "<group>"; };
 		0FDF12E9296F428C0014A838 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -195,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				0A7141202999108300406821 /* Multi-line-TextField.swift */,
+				0FD657FA29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 				0A34F216295BAB4100AC6692 /* ContentView.swift in Sources */,
 				0A71412F299AD02E00406821 /* Spring.swift in Sources */,
 				0FDF12EA296F428C0014A838 /* CalendarView.swift in Sources */,
+				0FD657FB29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift in Sources */,
 				0F1A7D2429CC9A6D00D701C3 /* LoginViewShakeEffect.swift in Sources */,
 				0A714133299AD07300406821 /* ReactionsSpringsWithParameters.swift in Sources */,
 				0AADB1F1295DD6DB00632A2A /* CustomFontsView.swift in Sources */,
