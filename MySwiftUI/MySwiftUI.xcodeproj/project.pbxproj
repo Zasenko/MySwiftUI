@@ -36,6 +36,7 @@
 		0AADB1F9295DDC4B00632A2A /* Equinox Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AADB1F2295DDAF000632A2A /* Equinox Regular.otf */; };
 		0AD1A780299EABBE004B88AA /* FaceIDLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD1A77F299EABBE004B88AA /* FaceIDLoginView.swift */; };
 		0AD1A782299EAD5F004B88AA /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD1A781299EAD5F004B88AA /* AppContext.swift */; };
+		0F0FA09F29D843CA00DE75AC /* HideWhenScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FA09E29D843CA00DE75AC /* HideWhenScrolling.swift */; };
 		0F1A7D1B29CC8F3B00D701C3 /* GeometryReader-frames-and-coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D1A29CC8F3B00D701C3 /* GeometryReader-frames-and-coordinates.swift */; };
 		0F1A7D1E29CC8F6D00D701C3 /* ScrollView+GeometryReader-effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D1C29CC8F6D00D701C3 /* ScrollView+GeometryReader-effects.swift */; };
 		0F1A7D1F29CC8F6D00D701C3 /* ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D1D29CC8F6D00D701C3 /* ScrollViewReader.swift */; };
@@ -80,6 +81,7 @@
 		0AADB1F3295DDAF000632A2A /* Equinox Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Equinox Bold.otf"; sourceTree = "<group>"; };
 		0AD1A77F299EABBE004B88AA /* FaceIDLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDLoginView.swift; sourceTree = "<group>"; };
 		0AD1A781299EAD5F004B88AA /* AppContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
+		0F0FA09E29D843CA00DE75AC /* HideWhenScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideWhenScrolling.swift; sourceTree = "<group>"; };
 		0F1A7D1A29CC8F3B00D701C3 /* GeometryReader-frames-and-coordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GeometryReader-frames-and-coordinates.swift"; sourceTree = "<group>"; };
 		0F1A7D1C29CC8F6D00D701C3 /* ScrollView+GeometryReader-effects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScrollView+GeometryReader-effects.swift"; sourceTree = "<group>"; };
 		0F1A7D1D29CC8F6D00D701C3 /* ScrollViewReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewReader.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 		0A34F221295BAB6A00AC6692 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0F0FA09B29D843A400DE75AC /* NavigationBar */,
 				0F1A7D2529CC9ABB00D701C3 /* Auth */,
 				0A71411F2999105F00406821 /* TextField */,
 				0A34F226295BAC6200AC6692 /* WebView */,
@@ -287,6 +290,14 @@
 				0AD1A781299EAD5F004B88AA /* AppContext.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0F0FA09B29D843A400DE75AC /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FA09E29D843CA00DE75AC /* HideWhenScrolling.swift */,
+			);
+			path = NavigationBar;
 			sourceTree = "<group>";
 		};
 		0F1A7D1929CC8F3B00D701C3 /* Geometry Reader */ = {
@@ -441,6 +452,7 @@
 				0F1A7D1F29CC8F6D00D701C3 /* ScrollViewReader.swift in Sources */,
 				0F1A7D1B29CC8F3B00D701C3 /* GeometryReader-frames-and-coordinates.swift in Sources */,
 				0A34F232295C5D3200AC6692 /* CallButton.swift in Sources */,
+				0F0FA09F29D843CA00DE75AC /* HideWhenScrolling.swift in Sources */,
 				0A93031729A3C40500C558A8 /* CustomToggle.swift in Sources */,
 				0A34F225295BAC0400AC6692 /* WebViewButtons.swift in Sources */,
 				0A7141212999108300406821 /* Multi-line-TextField.swift in Sources */,
