@@ -45,6 +45,7 @@
 		0F1A7D2829CC9AE400D701C3 /* LoginWithCheck+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2729CC9AE400D701C3 /* LoginWithCheck+Combine.swift */; };
 		0F1A7D2A29CC9AFF00D701C3 /* ValidationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2929CC9AFF00D701C3 /* ValidationType.swift */; };
 		0F1A7D2C29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */; };
+		0FC5D32F29DACB2C00711217 /* Filtering-List-By-Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5D32E29DACB2C00711217 /* Filtering-List-By-Date.swift */; };
 		0FD657FB29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD657FA29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift */; };
 		0FDF12EA296F428C0014A838 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF12E9296F428C0014A838 /* CalendarView.swift */; };
 /* End PBXBuildFile section */
@@ -90,6 +91,7 @@
 		0F1A7D2729CC9AE400D701C3 /* LoginWithCheck+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginWithCheck+Combine.swift"; sourceTree = "<group>"; };
 		0F1A7D2929CC9AFF00D701C3 /* ValidationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationType.swift; sourceTree = "<group>"; };
 		0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithCheckCombineViewModel.swift; sourceTree = "<group>"; };
+		0FC5D32E29DACB2C00711217 /* Filtering-List-By-Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Filtering-List-By-Date.swift"; sourceTree = "<group>"; };
 		0FD657FA29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFocAndKeyboardDismiss.swift; sourceTree = "<group>"; };
 		0FDF12E9296F428C0014A838 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,6 +151,7 @@
 		0A34F221295BAB6A00AC6692 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0FC5D32D29DACB1100711217 /* List */,
 				0F0FA09B29D843A400DE75AC /* NavigationBar */,
 				0F1A7D2529CC9ABB00D701C3 /* Auth */,
 				0A71411F2999105F00406821 /* TextField */,
@@ -336,6 +339,14 @@
 			path = "LoginWithCheck+Combine";
 			sourceTree = "<group>";
 		};
+		0FC5D32D29DACB1100711217 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				0FC5D32E29DACB2C00711217 /* Filtering-List-By-Date.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		0FD0858E29717004009F3DC7 /* ScrollView */ = {
 			isa = PBXGroup;
 			children = (
@@ -457,6 +468,7 @@
 				0A34F225295BAC0400AC6692 /* WebViewButtons.swift in Sources */,
 				0A7141212999108300406821 /* Multi-line-TextField.swift in Sources */,
 				0A380DF129B797410072DD48 /* CoreImageBasicFiltersView.swift in Sources */,
+				0FC5D32F29DACB2C00711217 /* Filtering-List-By-Date.swift in Sources */,
 				0F1A7D2A29CC9AFF00D701C3 /* ValidationType.swift in Sources */,
 				0A34F228295BAD5F00AC6692 /* SafariView.swift in Sources */,
 				0A71412D299ACCEF00406821 /* BouncyHamburger.swift in Sources */,
