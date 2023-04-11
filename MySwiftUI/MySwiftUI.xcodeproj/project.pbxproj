@@ -48,6 +48,7 @@
 		0FC5D32F29DACB2C00711217 /* Filtering-List-By-Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5D32E29DACB2C00711217 /* Filtering-List-By-Date.swift */; };
 		0FD657FB29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD657FA29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift */; };
 		0FDF12EA296F428C0014A838 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF12E9296F428C0014A838 /* CalendarView.swift */; };
+		0FEB8FF829DC1544001ABF93 /* BaseColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB8FF729DC1544001ABF93 /* BaseColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +95,7 @@
 		0FC5D32E29DACB2C00711217 /* Filtering-List-By-Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Filtering-List-By-Date.swift"; sourceTree = "<group>"; };
 		0FD657FA29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFocAndKeyboardDismiss.swift; sourceTree = "<group>"; };
 		0FDF12E9296F428C0014A838 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		0FEB8FF729DC1544001ABF93 /* BaseColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				0AADB1E8295DD4B600632A2A /* Info.plist */,
 				0A34F213295BAB4100AC6692 /* MySwiftUIApp.swift */,
 				0A34F215295BAB4100AC6692 /* ContentView.swift */,
+				0FEB8FF629DC152E001ABF93 /* Colors */,
 				0A380DEF29B7972B0072DD48 /* CoreImage */,
 				0AD1A77A299EAB47004B88AA /* FaceID and TouchID */,
 				0A714128299AC12A00406821 /* Animations */,
@@ -151,6 +154,7 @@
 		0A34F221295BAB6A00AC6692 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0FC5D33029DAEEB800711217 /* TabBar */,
 				0FC5D32D29DACB1100711217 /* List */,
 				0F0FA09B29D843A400DE75AC /* NavigationBar */,
 				0F1A7D2529CC9ABB00D701C3 /* Auth */,
@@ -347,6 +351,13 @@
 			path = List;
 			sourceTree = "<group>";
 		};
+		0FC5D33029DAEEB800711217 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		0FD0858E29717004009F3DC7 /* ScrollView */ = {
 			isa = PBXGroup;
 			children = (
@@ -362,6 +373,14 @@
 				0FDF12E9296F428C0014A838 /* CalendarView.swift */,
 			);
 			path = Calendar;
+			sourceTree = "<group>";
+		};
+		0FEB8FF629DC152E001ABF93 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				0FEB8FF729DC1544001ABF93 /* BaseColors.swift */,
+			);
+			path = Colors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -449,6 +468,7 @@
 				0F1A7D2C29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift in Sources */,
 				0AD1A780299EABBE004B88AA /* FaceIDLoginView.swift in Sources */,
 				0A34F216295BAB4100AC6692 /* ContentView.swift in Sources */,
+				0FEB8FF829DC1544001ABF93 /* BaseColors.swift in Sources */,
 				0A71412F299AD02E00406821 /* Spring.swift in Sources */,
 				0FDF12EA296F428C0014A838 /* CalendarView.swift in Sources */,
 				0FD657FB29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift in Sources */,
