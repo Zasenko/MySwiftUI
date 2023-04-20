@@ -45,6 +45,8 @@
 		0F1A7D2829CC9AE400D701C3 /* LoginWithCheck+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2729CC9AE400D701C3 /* LoginWithCheck+Combine.swift */; };
 		0F1A7D2A29CC9AFF00D701C3 /* ValidationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2929CC9AFF00D701C3 /* ValidationType.swift */; };
 		0F1A7D2C29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */; };
+		0F84415A29F17A0F008E008B /* Line-Wrapping-Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84415929F17A0F008E008B /* Line-Wrapping-Stacks.swift */; };
+		0F84415C29F17C75008E008B /* ChildSizeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84415B29F17C75008E008B /* ChildSizeReader.swift */; };
 		0FC5D32F29DACB2C00711217 /* Filtering-List-By-Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5D32E29DACB2C00711217 /* Filtering-List-By-Date.swift */; };
 		0FD657FB29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD657FA29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift */; };
 		0FDF12EA296F428C0014A838 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF12E9296F428C0014A838 /* CalendarView.swift */; };
@@ -92,6 +94,8 @@
 		0F1A7D2729CC9AE400D701C3 /* LoginWithCheck+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginWithCheck+Combine.swift"; sourceTree = "<group>"; };
 		0F1A7D2929CC9AFF00D701C3 /* ValidationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationType.swift; sourceTree = "<group>"; };
 		0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithCheckCombineViewModel.swift; sourceTree = "<group>"; };
+		0F84415929F17A0F008E008B /* Line-Wrapping-Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Line-Wrapping-Stacks.swift"; sourceTree = "<group>"; };
+		0F84415B29F17C75008E008B /* ChildSizeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildSizeReader.swift; sourceTree = "<group>"; };
 		0FC5D32E29DACB2C00711217 /* Filtering-List-By-Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Filtering-List-By-Date.swift"; sourceTree = "<group>"; };
 		0FD657FA29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFocAndKeyboardDismiss.swift; sourceTree = "<group>"; };
 		0FDF12E9296F428C0014A838 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
@@ -154,6 +158,7 @@
 		0A34F221295BAB6A00AC6692 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0F84415829F179FF008E008B /* Stack */,
 				0FC5D33029DAEEB800711217 /* TabBar */,
 				0FC5D32D29DACB1100711217 /* List */,
 				0F0FA09B29D843A400DE75AC /* NavigationBar */,
@@ -311,6 +316,7 @@
 			isa = PBXGroup;
 			children = (
 				0F1A7D1A29CC8F3B00D701C3 /* GeometryReader-frames-and-coordinates.swift */,
+				0F84415B29F17C75008E008B /* ChildSizeReader.swift */,
 			);
 			path = "Geometry Reader";
 			sourceTree = "<group>";
@@ -341,6 +347,14 @@
 				0F1A7D2929CC9AFF00D701C3 /* ValidationType.swift */,
 			);
 			path = "LoginWithCheck+Combine";
+			sourceTree = "<group>";
+		};
+		0F84415829F179FF008E008B /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				0F84415929F17A0F008E008B /* Line-Wrapping-Stacks.swift */,
+			);
+			path = Stack;
 			sourceTree = "<group>";
 		};
 		0FC5D32D29DACB1100711217 /* List */ = {
@@ -465,11 +479,13 @@
 				0A71413D299D7D6A00406821 /* StiffnessDamping.swift in Sources */,
 				0A714131299AD05100406821 /* InteractiveSpring.swift in Sources */,
 				0F1A7D2829CC9AE400D701C3 /* LoginWithCheck+Combine.swift in Sources */,
+				0F84415C29F17C75008E008B /* ChildSizeReader.swift in Sources */,
 				0F1A7D2C29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift in Sources */,
 				0AD1A780299EABBE004B88AA /* FaceIDLoginView.swift in Sources */,
 				0A34F216295BAB4100AC6692 /* ContentView.swift in Sources */,
 				0FEB8FF829DC1544001ABF93 /* BaseColors.swift in Sources */,
 				0A71412F299AD02E00406821 /* Spring.swift in Sources */,
+				0F84415A29F17A0F008E008B /* Line-Wrapping-Stacks.swift in Sources */,
 				0FDF12EA296F428C0014A838 /* CalendarView.swift in Sources */,
 				0FD657FB29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift in Sources */,
 				0F1A7D2429CC9A6D00D701C3 /* LoginViewShakeEffect.swift in Sources */,
