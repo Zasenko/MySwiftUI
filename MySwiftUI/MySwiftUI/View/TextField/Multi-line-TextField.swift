@@ -20,7 +20,7 @@ struct MultilineTextField: View {
           }
           Section("Feedback") {
               TextField("text", text: $text, axis: .vertical)
-                .lineLimit(2...4)
+                .lineLimit(4)
           }
         }
     }

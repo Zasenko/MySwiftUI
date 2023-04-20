@@ -12,8 +12,6 @@ struct ScrollView_GeometryReader_effects: View {
 
         var body: some View {
             VStack {
-                
-                
                 GeometryReader { fullView in
                     ScrollView {
                         ForEach(0..<50) { index in

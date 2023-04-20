@@ -36,6 +36,7 @@
 		0AADB1F9295DDC4B00632A2A /* Equinox Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AADB1F2295DDAF000632A2A /* Equinox Regular.otf */; };
 		0AD1A780299EABBE004B88AA /* FaceIDLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD1A77F299EABBE004B88AA /* FaceIDLoginView.swift */; };
 		0AD1A782299EAD5F004B88AA /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD1A781299EAD5F004B88AA /* AppContext.swift */; };
+		0F0FA09F29D843CA00DE75AC /* HideWhenScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FA09E29D843CA00DE75AC /* HideWhenScrolling.swift */; };
 		0F1A7D1B29CC8F3B00D701C3 /* GeometryReader-frames-and-coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D1A29CC8F3B00D701C3 /* GeometryReader-frames-and-coordinates.swift */; };
 		0F1A7D1E29CC8F6D00D701C3 /* ScrollView+GeometryReader-effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D1C29CC8F6D00D701C3 /* ScrollView+GeometryReader-effects.swift */; };
 		0F1A7D1F29CC8F6D00D701C3 /* ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D1D29CC8F6D00D701C3 /* ScrollViewReader.swift */; };
@@ -44,7 +45,12 @@
 		0F1A7D2829CC9AE400D701C3 /* LoginWithCheck+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2729CC9AE400D701C3 /* LoginWithCheck+Combine.swift */; };
 		0F1A7D2A29CC9AFF00D701C3 /* ValidationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2929CC9AFF00D701C3 /* ValidationType.swift */; };
 		0F1A7D2C29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */; };
+		0F84415A29F17A0F008E008B /* Line-Wrapping-Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84415929F17A0F008E008B /* Line-Wrapping-Stacks.swift */; };
+		0F84415C29F17C75008E008B /* ChildSizeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84415B29F17C75008E008B /* ChildSizeReader.swift */; };
+		0FC5D32F29DACB2C00711217 /* Filtering-List-By-Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5D32E29DACB2C00711217 /* Filtering-List-By-Date.swift */; };
+		0FD657FB29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD657FA29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift */; };
 		0FDF12EA296F428C0014A838 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF12E9296F428C0014A838 /* CalendarView.swift */; };
+		0FEB8FF829DC1544001ABF93 /* BaseColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB8FF729DC1544001ABF93 /* BaseColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +85,7 @@
 		0AADB1F3295DDAF000632A2A /* Equinox Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Equinox Bold.otf"; sourceTree = "<group>"; };
 		0AD1A77F299EABBE004B88AA /* FaceIDLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDLoginView.swift; sourceTree = "<group>"; };
 		0AD1A781299EAD5F004B88AA /* AppContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
+		0F0FA09E29D843CA00DE75AC /* HideWhenScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideWhenScrolling.swift; sourceTree = "<group>"; };
 		0F1A7D1A29CC8F3B00D701C3 /* GeometryReader-frames-and-coordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GeometryReader-frames-and-coordinates.swift"; sourceTree = "<group>"; };
 		0F1A7D1C29CC8F6D00D701C3 /* ScrollView+GeometryReader-effects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScrollView+GeometryReader-effects.swift"; sourceTree = "<group>"; };
 		0F1A7D1D29CC8F6D00D701C3 /* ScrollViewReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewReader.swift; sourceTree = "<group>"; };
@@ -87,7 +94,12 @@
 		0F1A7D2729CC9AE400D701C3 /* LoginWithCheck+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginWithCheck+Combine.swift"; sourceTree = "<group>"; };
 		0F1A7D2929CC9AFF00D701C3 /* ValidationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationType.swift; sourceTree = "<group>"; };
 		0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithCheckCombineViewModel.swift; sourceTree = "<group>"; };
+		0F84415929F17A0F008E008B /* Line-Wrapping-Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Line-Wrapping-Stacks.swift"; sourceTree = "<group>"; };
+		0F84415B29F17C75008E008B /* ChildSizeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildSizeReader.swift; sourceTree = "<group>"; };
+		0FC5D32E29DACB2C00711217 /* Filtering-List-By-Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Filtering-List-By-Date.swift"; sourceTree = "<group>"; };
+		0FD657FA29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFocAndKeyboardDismiss.swift; sourceTree = "<group>"; };
 		0FDF12E9296F428C0014A838 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		0FEB8FF729DC1544001ABF93 /* BaseColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +135,7 @@
 				0AADB1E8295DD4B600632A2A /* Info.plist */,
 				0A34F213295BAB4100AC6692 /* MySwiftUIApp.swift */,
 				0A34F215295BAB4100AC6692 /* ContentView.swift */,
+				0FEB8FF629DC152E001ABF93 /* Colors */,
 				0A380DEF29B7972B0072DD48 /* CoreImage */,
 				0AD1A77A299EAB47004B88AA /* FaceID and TouchID */,
 				0A714128299AC12A00406821 /* Animations */,
@@ -145,6 +158,10 @@
 		0A34F221295BAB6A00AC6692 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0F84415829F179FF008E008B /* Stack */,
+				0FC5D33029DAEEB800711217 /* TabBar */,
+				0FC5D32D29DACB1100711217 /* List */,
+				0F0FA09B29D843A400DE75AC /* NavigationBar */,
 				0F1A7D2529CC9ABB00D701C3 /* Auth */,
 				0A71411F2999105F00406821 /* TextField */,
 				0A34F226295BAC6200AC6692 /* WebView */,
@@ -195,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				0A7141202999108300406821 /* Multi-line-TextField.swift */,
+				0FD657FA29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -286,10 +304,19 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		0F0FA09B29D843A400DE75AC /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FA09E29D843CA00DE75AC /* HideWhenScrolling.swift */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
 		0F1A7D1929CC8F3B00D701C3 /* Geometry Reader */ = {
 			isa = PBXGroup;
 			children = (
 				0F1A7D1A29CC8F3B00D701C3 /* GeometryReader-frames-and-coordinates.swift */,
+				0F84415B29F17C75008E008B /* ChildSizeReader.swift */,
 			);
 			path = "Geometry Reader";
 			sourceTree = "<group>";
@@ -322,6 +349,29 @@
 			path = "LoginWithCheck+Combine";
 			sourceTree = "<group>";
 		};
+		0F84415829F179FF008E008B /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				0F84415929F17A0F008E008B /* Line-Wrapping-Stacks.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		0FC5D32D29DACB1100711217 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				0FC5D32E29DACB2C00711217 /* Filtering-List-By-Date.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		0FC5D33029DAEEB800711217 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		0FD0858E29717004009F3DC7 /* ScrollView */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,6 +387,14 @@
 				0FDF12E9296F428C0014A838 /* CalendarView.swift */,
 			);
 			path = Calendar;
+			sourceTree = "<group>";
+		};
+		0FEB8FF629DC152E001ABF93 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				0FEB8FF729DC1544001ABF93 /* BaseColors.swift */,
+			);
+			path = Colors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,11 +479,15 @@
 				0A71413D299D7D6A00406821 /* StiffnessDamping.swift in Sources */,
 				0A714131299AD05100406821 /* InteractiveSpring.swift in Sources */,
 				0F1A7D2829CC9AE400D701C3 /* LoginWithCheck+Combine.swift in Sources */,
+				0F84415C29F17C75008E008B /* ChildSizeReader.swift in Sources */,
 				0F1A7D2C29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift in Sources */,
 				0AD1A780299EABBE004B88AA /* FaceIDLoginView.swift in Sources */,
 				0A34F216295BAB4100AC6692 /* ContentView.swift in Sources */,
+				0FEB8FF829DC1544001ABF93 /* BaseColors.swift in Sources */,
 				0A71412F299AD02E00406821 /* Spring.swift in Sources */,
+				0F84415A29F17A0F008E008B /* Line-Wrapping-Stacks.swift in Sources */,
 				0FDF12EA296F428C0014A838 /* CalendarView.swift in Sources */,
+				0FD657FB29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift in Sources */,
 				0F1A7D2429CC9A6D00D701C3 /* LoginViewShakeEffect.swift in Sources */,
 				0A714133299AD07300406821 /* ReactionsSpringsWithParameters.swift in Sources */,
 				0AADB1F1295DD6DB00632A2A /* CustomFontsView.swift in Sources */,
@@ -437,10 +499,12 @@
 				0F1A7D1F29CC8F6D00D701C3 /* ScrollViewReader.swift in Sources */,
 				0F1A7D1B29CC8F3B00D701C3 /* GeometryReader-frames-and-coordinates.swift in Sources */,
 				0A34F232295C5D3200AC6692 /* CallButton.swift in Sources */,
+				0F0FA09F29D843CA00DE75AC /* HideWhenScrolling.swift in Sources */,
 				0A93031729A3C40500C558A8 /* CustomToggle.swift in Sources */,
 				0A34F225295BAC0400AC6692 /* WebViewButtons.swift in Sources */,
 				0A7141212999108300406821 /* Multi-line-TextField.swift in Sources */,
 				0A380DF129B797410072DD48 /* CoreImageBasicFiltersView.swift in Sources */,
+				0FC5D32F29DACB2C00711217 /* Filtering-List-By-Date.swift in Sources */,
 				0F1A7D2A29CC9AFF00D701C3 /* ValidationType.swift in Sources */,
 				0A34F228295BAD5F00AC6692 /* SafariView.swift in Sources */,
 				0A71412D299ACCEF00406821 /* BouncyHamburger.swift in Sources */,
