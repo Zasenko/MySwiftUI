@@ -11,11 +11,11 @@ struct ChildSizeReader: View {
     var body: some View {
         childView
           .readSize { newSize in
-            print("4 The new child size is: \(newSize)")
+            print("The new child size is: \(newSize)")
           }
     }
     var childView: some View {
-            Text("2 The new child size isThe new child size isThe new child size isThe new child size isThe new child size isThe new child size isThe new child size is The new child size isThe new child size isThe new child size isThe new child size isThe new child size isThe new child size isThe new child size is")
+            Text("The new child size isThe new child size isThe new child size isThe new child size isThe new child size isThe new child size isThe new child size is The new child size isThe new child size isThe new child size isThe new child size isThe new child size isThe new child size isThe new child size is")
     }
 }
 
