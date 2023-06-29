@@ -45,8 +45,11 @@
 		0F1A7D2829CC9AE400D701C3 /* LoginWithCheck+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2729CC9AE400D701C3 /* LoginWithCheck+Combine.swift */; };
 		0F1A7D2A29CC9AFF00D701C3 /* ValidationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2929CC9AFF00D701C3 /* ValidationType.swift */; };
 		0F1A7D2C29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */; };
+		0F4131532A45EAF00019F748 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4131522A45EAF00019F748 /* MapView.swift */; };
+		0F53B31D2A41EE720022D84B /* ImageResizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53B31C2A41EE720022D84B /* ImageResizing.swift */; };
 		0F84415A29F17A0F008E008B /* Line-Wrapping-Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84415929F17A0F008E008B /* Line-Wrapping-Stacks.swift */; };
 		0F84415C29F17C75008E008B /* ChildSizeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84415B29F17C75008E008B /* ChildSizeReader.swift */; };
+		0F9758122A4D85220082A8C5 /* FocusableFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9758112A4D85220082A8C5 /* FocusableFieldView.swift */; };
 		0FBB1E6C2A3AF3EA00FAEEA4 /* SimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBB1E6B2A3AF3EA00FAEEA4 /* SimpleButton.swift */; };
 		0FC5D32F29DACB2C00711217 /* Filtering-List-By-Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5D32E29DACB2C00711217 /* Filtering-List-By-Date.swift */; };
 		0FD657FB29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD657FA29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift */; };
@@ -97,8 +100,11 @@
 		0F1A7D2729CC9AE400D701C3 /* LoginWithCheck+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginWithCheck+Combine.swift"; sourceTree = "<group>"; };
 		0F1A7D2929CC9AFF00D701C3 /* ValidationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationType.swift; sourceTree = "<group>"; };
 		0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithCheckCombineViewModel.swift; sourceTree = "<group>"; };
+		0F4131522A45EAF00019F748 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		0F53B31C2A41EE720022D84B /* ImageResizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizing.swift; sourceTree = "<group>"; };
 		0F84415929F17A0F008E008B /* Line-Wrapping-Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Line-Wrapping-Stacks.swift"; sourceTree = "<group>"; };
 		0F84415B29F17C75008E008B /* ChildSizeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildSizeReader.swift; sourceTree = "<group>"; };
+		0F9758112A4D85220082A8C5 /* FocusableFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusableFieldView.swift; sourceTree = "<group>"; };
 		0FBB1E6B2A3AF3EA00FAEEA4 /* SimpleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleButton.swift; sourceTree = "<group>"; };
 		0FC5D32E29DACB2C00711217 /* Filtering-List-By-Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Filtering-List-By-Date.swift"; sourceTree = "<group>"; };
 		0FD657FA29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFocAndKeyboardDismiss.swift; sourceTree = "<group>"; };
@@ -165,6 +171,7 @@
 		0A34F221295BAB6A00AC6692 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0F53B31B2A41EE5E0022D84B /* Image */,
 				0FBB1E6A2A3AF3D900FAEEA4 /* Button */,
 				0F84415829F179FF008E008B /* Stack */,
 				0FC5D33029DAEEB800711217 /* TabBar */,
@@ -178,6 +185,7 @@
 				0FD0858E29717004009F3DC7 /* ScrollView */,
 				0A93031829A3C42400C558A8 /* CustomToggle */,
 				0F1A7D1929CC8F3B00D701C3 /* Geometry Reader */,
+				0F4131512A45EAE00019F748 /* Map */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			children = (
 				0A7141202999108300406821 /* Multi-line-TextField.swift */,
 				0FD657FA29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift */,
+				0F9758112A4D85220082A8C5 /* FocusableFieldView.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -355,6 +364,22 @@
 				0F1A7D2929CC9AFF00D701C3 /* ValidationType.swift */,
 			);
 			path = "LoginWithCheck+Combine";
+			sourceTree = "<group>";
+		};
+		0F4131512A45EAE00019F748 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				0F4131522A45EAF00019F748 /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		0F53B31B2A41EE5E0022D84B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				0F53B31C2A41EE720022D84B /* ImageResizing.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 		0F84415829F179FF008E008B /* Stack */ = {
@@ -498,6 +523,7 @@
 				0A34F223295BABA000AC6692 /* WebView.swift in Sources */,
 				0F1A7D2229CC90C000D701C3 /* LoginView.swift in Sources */,
 				0AD1A782299EAD5F004B88AA /* AppContext.swift in Sources */,
+				0F53B31D2A41EE720022D84B /* ImageResizing.swift in Sources */,
 				0A714139299D7D1000406821 /* DampingFractionBounce.swift in Sources */,
 				0A714137299D7BEB00406821 /* ReactionsView.swift in Sources */,
 				0A71413B299D7D3F00406821 /* StiffNessBounce.swift in Sources */,
@@ -506,6 +532,7 @@
 				0F1A7D2829CC9AE400D701C3 /* LoginWithCheck+Combine.swift in Sources */,
 				0F84415C29F17C75008E008B /* ChildSizeReader.swift in Sources */,
 				0F1A7D2C29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift in Sources */,
+				0F9758122A4D85220082A8C5 /* FocusableFieldView.swift in Sources */,
 				0AD1A780299EABBE004B88AA /* FaceIDLoginView.swift in Sources */,
 				0A34F216295BAB4100AC6692 /* ContentView.swift in Sources */,
 				0FEB8FF829DC1544001ABF93 /* BaseColors.swift in Sources */,
@@ -519,6 +546,7 @@
 				0AADB1F1295DD6DB00632A2A /* CustomFontsView.swift in Sources */,
 				0A77D00629A3C650007428E2 /* SnapToCorners.swift in Sources */,
 				0A34F214295BAB4100AC6692 /* MySwiftUIApp.swift in Sources */,
+				0F4131532A45EAF00019F748 /* MapView.swift in Sources */,
 				0F1A7D1E29CC8F6D00D701C3 /* ScrollView+GeometryReader-effects.swift in Sources */,
 				0FD8A75429FA7847004EA3F0 /* PDFImageRenderer.swift in Sources */,
 				0A714135299AD40F00406821 /* DampingFractionTypes.swift in Sources */,
@@ -675,6 +703,7 @@
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -706,6 +735,7 @@
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
