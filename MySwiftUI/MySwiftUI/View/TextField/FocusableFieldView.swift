@@ -58,6 +58,7 @@ struct FocusableFieldView: View {
             case .lastName:
                 focusedField = .email
             case .email:
+                
                 focusedField = nil
             case .none:
                 break
