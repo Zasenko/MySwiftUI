@@ -47,10 +47,12 @@
 		0F1A7D2C29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */; };
 		0F4131532A45EAF00019F748 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4131522A45EAF00019F748 /* MapView.swift */; };
 		0F53B31D2A41EE720022D84B /* ImageResizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53B31C2A41EE720022D84B /* ImageResizing.swift */; };
+		0F5B4A732A69388300E6F64D /*  SnapCarouselSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B4A722A69388300E6F64D /*  SnapCarouselSliderView.swift */; };
 		0F84415A29F17A0F008E008B /* Line-Wrapping-Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84415929F17A0F008E008B /* Line-Wrapping-Stacks.swift */; };
 		0F84415C29F17C75008E008B /* ChildSizeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84415B29F17C75008E008B /* ChildSizeReader.swift */; };
 		0F9758122A4D85220082A8C5 /* FocusableFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9758112A4D85220082A8C5 /* FocusableFieldView.swift */; };
 		0FB78DDD2A604C620078263D /* OutlineGroupSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB78DDC2A604C620078263D /* OutlineGroupSimple.swift */; };
+		0FB78DEB2A6285980078263D /* MonthPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB78DEA2A6285980078263D /* MonthPickerView.swift */; };
 		0FBB1E6C2A3AF3EA00FAEEA4 /* SimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBB1E6B2A3AF3EA00FAEEA4 /* SimpleButton.swift */; };
 		0FC5D32F29DACB2C00711217 /* Filtering-List-By-Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5D32E29DACB2C00711217 /* Filtering-List-By-Date.swift */; };
 		0FD657FB29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD657FA29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift */; };
@@ -103,10 +105,12 @@
 		0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithCheckCombineViewModel.swift; sourceTree = "<group>"; };
 		0F4131522A45EAF00019F748 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0F53B31C2A41EE720022D84B /* ImageResizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizing.swift; sourceTree = "<group>"; };
+		0F5B4A722A69388300E6F64D /*  SnapCarouselSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " SnapCarouselSliderView.swift"; sourceTree = "<group>"; };
 		0F84415929F17A0F008E008B /* Line-Wrapping-Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Line-Wrapping-Stacks.swift"; sourceTree = "<group>"; };
 		0F84415B29F17C75008E008B /* ChildSizeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildSizeReader.swift; sourceTree = "<group>"; };
 		0F9758112A4D85220082A8C5 /* FocusableFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusableFieldView.swift; sourceTree = "<group>"; };
 		0FB78DDC2A604C620078263D /* OutlineGroupSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupSimple.swift; sourceTree = "<group>"; };
+		0FB78DEA2A6285980078263D /* MonthPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthPickerView.swift; sourceTree = "<group>"; };
 		0FBB1E6B2A3AF3EA00FAEEA4 /* SimpleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleButton.swift; sourceTree = "<group>"; };
 		0FC5D32E29DACB2C00711217 /* Filtering-List-By-Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Filtering-List-By-Date.swift"; sourceTree = "<group>"; };
 		0FD657FA29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFocAndKeyboardDismiss.swift; sourceTree = "<group>"; };
@@ -173,6 +177,8 @@
 		0A34F221295BAB6A00AC6692 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0F5B4A712A69384600E6F64D /* Carousel */,
+				0FB78DE92A6285600078263D /* Pickers */,
 				0FB78DDB2A604C4E0078263D /* OutlineGroup */,
 				0F53B31B2A41EE5E0022D84B /* Image */,
 				0FBB1E6A2A3AF3D900FAEEA4 /* Button */,
@@ -385,6 +391,14 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
+		0F5B4A712A69384600E6F64D /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				0F5B4A722A69388300E6F64D /*  SnapCarouselSliderView.swift */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
 		0F84415829F179FF008E008B /* Stack */ = {
 			isa = PBXGroup;
 			children = (
@@ -399,6 +413,14 @@
 				0FB78DDC2A604C620078263D /* OutlineGroupSimple.swift */,
 			);
 			path = OutlineGroup;
+			sourceTree = "<group>";
+		};
+		0FB78DE92A6285600078263D /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				0FB78DEA2A6285980078263D /* MonthPickerView.swift */,
+			);
+			path = Pickers;
 			sourceTree = "<group>";
 		};
 		0FBB1E6A2A3AF3D900FAEEA4 /* Button */ = {
@@ -560,6 +582,7 @@
 				0A34F214295BAB4100AC6692 /* MySwiftUIApp.swift in Sources */,
 				0F4131532A45EAF00019F748 /* MapView.swift in Sources */,
 				0F1A7D1E29CC8F6D00D701C3 /* ScrollView+GeometryReader-effects.swift in Sources */,
+				0FB78DEB2A6285980078263D /* MonthPickerView.swift in Sources */,
 				0FD8A75429FA7847004EA3F0 /* PDFImageRenderer.swift in Sources */,
 				0A714135299AD40F00406821 /* DampingFractionTypes.swift in Sources */,
 				0A71412B299AC15400406821 /* ChainedSpring.swift in Sources */,
@@ -568,6 +591,7 @@
 				0F1A7D1B29CC8F3B00D701C3 /* GeometryReader-frames-and-coordinates.swift in Sources */,
 				0A34F232295C5D3200AC6692 /* CallButton.swift in Sources */,
 				0F0FA09F29D843CA00DE75AC /* HideWhenScrolling.swift in Sources */,
+				0F5B4A732A69388300E6F64D /*  SnapCarouselSliderView.swift in Sources */,
 				0A93031729A3C40500C558A8 /* CustomToggle.swift in Sources */,
 				0A34F225295BAC0400AC6692 /* WebViewButtons.swift in Sources */,
 				0A7141212999108300406821 /* Multi-line-TextField.swift in Sources */,

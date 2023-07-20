@@ -12,6 +12,8 @@ struct CustomToggle: View {
     
     var body: some View {
         ZStack {
+            
+            
             Color(toggleOn ? #colorLiteral(red: 0.9803921569, green: 0.9803921569, blue: 0.9803921569, alpha: 1) : #colorLiteral(red: 0.2235294118, green: 0.2392156863, blue: 0.2784313725, alpha: 1))
             VStack (){
                 ZStack{
