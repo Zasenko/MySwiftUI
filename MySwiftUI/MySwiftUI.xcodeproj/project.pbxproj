@@ -45,6 +45,8 @@
 		0F1A7D2829CC9AE400D701C3 /* LoginWithCheck+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2729CC9AE400D701C3 /* LoginWithCheck+Combine.swift */; };
 		0F1A7D2A29CC9AFF00D701C3 /* ValidationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2929CC9AFF00D701C3 /* ValidationType.swift */; };
 		0F1A7D2C29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */; };
+		0F2B4E3D2A7BA65A0040CAEE /* Rainbow-Card-Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2B4E3C2A7BA65A0040CAEE /* Rainbow-Card-Border.swift */; };
+		0F39A2952A7E315A00B3D7BE /* DrawingShapeSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F39A2942A7E315A00B3D7BE /* DrawingShapeSimple.swift */; };
 		0F4131532A45EAF00019F748 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4131522A45EAF00019F748 /* MapView.swift */; };
 		0F53B31D2A41EE720022D84B /* ImageResizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53B31C2A41EE720022D84B /* ImageResizing.swift */; };
 		0F5B4A732A69388300E6F64D /*  SnapCarouselSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B4A722A69388300E6F64D /*  SnapCarouselSliderView.swift */; };
@@ -54,6 +56,7 @@
 		0FB78DDD2A604C620078263D /* OutlineGroupSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB78DDC2A604C620078263D /* OutlineGroupSimple.swift */; };
 		0FB78DEB2A6285980078263D /* MonthPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB78DEA2A6285980078263D /* MonthPickerView.swift */; };
 		0FBB1E6C2A3AF3EA00FAEEA4 /* SimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBB1E6B2A3AF3EA00FAEEA4 /* SimpleButton.swift */; };
+		0FBC3E212AC40A910007CCDC /* CustomCarouselSliderWithPanging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBC3E202AC40A910007CCDC /* CustomCarouselSliderWithPanging.swift */; };
 		0FC5D32F29DACB2C00711217 /* Filtering-List-By-Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5D32E29DACB2C00711217 /* Filtering-List-By-Date.swift */; };
 		0FD657FB29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD657FA29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift */; };
 		0FD8A75429FA7847004EA3F0 /* PDFImageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8A75329FA7847004EA3F0 /* PDFImageRenderer.swift */; };
@@ -103,6 +106,8 @@
 		0F1A7D2729CC9AE400D701C3 /* LoginWithCheck+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginWithCheck+Combine.swift"; sourceTree = "<group>"; };
 		0F1A7D2929CC9AFF00D701C3 /* ValidationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationType.swift; sourceTree = "<group>"; };
 		0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithCheckCombineViewModel.swift; sourceTree = "<group>"; };
+		0F2B4E3C2A7BA65A0040CAEE /* Rainbow-Card-Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rainbow-Card-Border.swift"; sourceTree = "<group>"; };
+		0F39A2942A7E315A00B3D7BE /* DrawingShapeSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingShapeSimple.swift; sourceTree = "<group>"; };
 		0F4131522A45EAF00019F748 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0F53B31C2A41EE720022D84B /* ImageResizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizing.swift; sourceTree = "<group>"; };
 		0F5B4A722A69388300E6F64D /*  SnapCarouselSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " SnapCarouselSliderView.swift"; sourceTree = "<group>"; };
@@ -112,6 +117,7 @@
 		0FB78DDC2A604C620078263D /* OutlineGroupSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupSimple.swift; sourceTree = "<group>"; };
 		0FB78DEA2A6285980078263D /* MonthPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthPickerView.swift; sourceTree = "<group>"; };
 		0FBB1E6B2A3AF3EA00FAEEA4 /* SimpleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleButton.swift; sourceTree = "<group>"; };
+		0FBC3E202AC40A910007CCDC /* CustomCarouselSliderWithPanging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCarouselSliderWithPanging.swift; sourceTree = "<group>"; };
 		0FC5D32E29DACB2C00711217 /* Filtering-List-By-Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Filtering-List-By-Date.swift"; sourceTree = "<group>"; };
 		0FD657FA29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFocAndKeyboardDismiss.swift; sourceTree = "<group>"; };
 		0FD8A75329FA7847004EA3F0 /* PDFImageRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFImageRenderer.swift; sourceTree = "<group>"; };
@@ -153,6 +159,7 @@
 				0AADB1E8295DD4B600632A2A /* Info.plist */,
 				0A34F213295BAB4100AC6692 /* MySwiftUIApp.swift */,
 				0A34F215295BAB4100AC6692 /* ContentView.swift */,
+				0F39A2932A7E312900B3D7BE /* DrawShape */,
 				0FD8A75229FA7839004EA3F0 /* PDF */,
 				0FEB8FF629DC152E001ABF93 /* Colors */,
 				0A380DEF29B7972B0072DD48 /* CoreImage */,
@@ -248,6 +255,7 @@
 			children = (
 				0A77D00429A3C62B007428E2 /* View Position */,
 				0A714129299AC13400406821 /* Spring */,
+				0F2B4E3C2A7BA65A0040CAEE /* Rainbow-Card-Border.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -375,6 +383,14 @@
 			path = "LoginWithCheck+Combine";
 			sourceTree = "<group>";
 		};
+		0F39A2932A7E312900B3D7BE /* DrawShape */ = {
+			isa = PBXGroup;
+			children = (
+				0F39A2942A7E315A00B3D7BE /* DrawingShapeSimple.swift */,
+			);
+			path = DrawShape;
+			sourceTree = "<group>";
+		};
 		0F4131512A45EAE00019F748 /* Map */ = {
 			isa = PBXGroup;
 			children = (
@@ -395,6 +411,7 @@
 			isa = PBXGroup;
 			children = (
 				0F5B4A722A69388300E6F64D /*  SnapCarouselSliderView.swift */,
+				0FBC3E202AC40A910007CCDC /* CustomCarouselSliderWithPanging.swift */,
 			);
 			path = Carousel;
 			sourceTree = "<group>";
@@ -560,6 +577,7 @@
 				0A714139299D7D1000406821 /* DampingFractionBounce.swift in Sources */,
 				0A714137299D7BEB00406821 /* ReactionsView.swift in Sources */,
 				0FB78DDD2A604C620078263D /* OutlineGroupSimple.swift in Sources */,
+				0FBC3E212AC40A910007CCDC /* CustomCarouselSliderWithPanging.swift in Sources */,
 				0A71413B299D7D3F00406821 /* StiffNessBounce.swift in Sources */,
 				0A71413D299D7D6A00406821 /* StiffnessDamping.swift in Sources */,
 				0A714131299AD05100406821 /* InteractiveSpring.swift in Sources */,
@@ -573,6 +591,7 @@
 				0A71412F299AD02E00406821 /* Spring.swift in Sources */,
 				0F84415A29F17A0F008E008B /* Line-Wrapping-Stacks.swift in Sources */,
 				0FDF12EA296F428C0014A838 /* CalendarView.swift in Sources */,
+				0F39A2952A7E315A00B3D7BE /* DrawingShapeSimple.swift in Sources */,
 				0FBB1E6C2A3AF3EA00FAEEA4 /* SimpleButton.swift in Sources */,
 				0FD657FB29D21575000B0F72 /* TextFieldFocAndKeyboardDismiss.swift in Sources */,
 				0F1A7D2429CC9A6D00D701C3 /* LoginViewShakeEffect.swift in Sources */,
@@ -599,6 +618,7 @@
 				0FC5D32F29DACB2C00711217 /* Filtering-List-By-Date.swift in Sources */,
 				0F1A7D2A29CC9AFF00D701C3 /* ValidationType.swift in Sources */,
 				0A34F228295BAD5F00AC6692 /* SafariView.swift in Sources */,
+				0F2B4E3D2A7BA65A0040CAEE /* Rainbow-Card-Border.swift in Sources */,
 				0A71412D299ACCEF00406821 /* BouncyHamburger.swift in Sources */,
 				0A71413F299D7DEA00406821 /* Recording.swift in Sources */,
 			);
@@ -739,7 +759,7 @@
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -771,7 +791,7 @@
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
