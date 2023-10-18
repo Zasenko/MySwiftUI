@@ -32,7 +32,13 @@ struct CustomCarouselSliderWithPangingTEST: View {
             let a: [Item] = [.init(color: .green, title: "City Analouge", subTitle: "Add a clock for a city to check the time at that location. Add a clock for a city to check the time at that location. Add a clock for a city to check the time at that location."),
                        .init(color: .yellow, title: "Next Alarm", subTitle: "Display upcoming alarm."),
                        .init(color: .pink, title: "Alarm", subTitle: "Display upcoming alarm."),
-                       .init(color: .green, title: "Borer Strasse", subTitle: "Display upcoming alarm.")
+                       .init(color: .green, title: "Borer Strasse", subTitle: "Display upcoming alarm."), .init(color: .green, title: "City Analouge", subTitle: "Add a clock for a city to check the time at that location. Add a clock for a city to check the time at that location. Add a clock for a city to check the time at that location."),
+                             .init(color: .yellow, title: "Next Alarm", subTitle: "Display upcoming alarm."),
+                             .init(color: .pink, title: "Alarm", subTitle: "Display upcoming alarm."),
+                             .init(color: .green, title: "Borer Strasse", subTitle: "Display upcoming alarm."), .init(color: .green, title: "City Analouge", subTitle: "Add a clock for a city to check the time at that location. Add a clock for a city to check the time at that location. Add a clock for a city to check the time at that location."),
+                             .init(color: .yellow, title: "Next Alarm", subTitle: "Display upcoming alarm."),
+                             .init(color: .pink, title: "Alarm", subTitle: "Display upcoming alarm."),
+                             .init(color: .green, title: "Borer Strasse", subTitle: "Display upcoming alarm.")
                              ]
             self.items.append(contentsOf: a)
         }
@@ -117,12 +123,14 @@ struct CustomPagingSlider<Content: View, TitleContent: View, Item: RandomAccessC
                 HStack(spacing: spacing) {
                     ForEach ($data) { item in
                         VStack (spacing: 0) {
+                            
+                            content(item)
                             titleContent(item)
                                 .frame(maxWidth: .infinity)
                                 .visualEffect { content, geometryProxy in
                                     content.offset(x: scrollOffset(geometryProxy))
                                 }
-                            content(item)
+                                .padding(.top)
                         }
                         .containerRelativeFrame(.horizontal)
                     }

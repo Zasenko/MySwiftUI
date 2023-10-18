@@ -27,20 +27,20 @@ struct ScrollView_GeometryReader_effects: View {
                     }
                 }
                 ScrollView(.horizontal, showsIndicators: false) {
-                            HStack(spacing: 0) {
-                                ForEach(1..<20) { num in
-                                    GeometryReader { geo in
-                                        Text("Number \(num)")
-                                            .font(.largeTitle)
-                                            .padding()
-                                            .background(.red)
-                                            .rotation3DEffect(.degrees(-geo.frame(in: .global).minX) / 8, axis: (x: 0, y: 1, z: 0))
-                                            .frame(width: 200, height: 200)
-                                    }
+                    HStack(spacing: 0) {
+                        ForEach(1..<20) { num in
+                            GeometryReader { geo in
+                                Text("Number \(num)")
+                                    .font(.largeTitle)
+                                    .padding()
+                                    .background(.red)
+                                   // .rotation3DEffect(.degrees(-geo.frame(in: .global).minX) / 8, axis: (x: 0, y: 1, z: 0))
                                     .frame(width: 200, height: 200)
-                                }
                             }
+                            .frame(width: 200, height: 200)
                         }
+                    }
+                }
                 GeometryReader { fullView in
                             ScrollView(.vertical) {
                                 ForEach(0..<50) { index in
