@@ -45,6 +45,7 @@
 		0F1A7D2829CC9AE400D701C3 /* LoginWithCheck+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2729CC9AE400D701C3 /* LoginWithCheck+Combine.swift */; };
 		0F1A7D2A29CC9AFF00D701C3 /* ValidationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2929CC9AFF00D701C3 /* ValidationType.swift */; };
 		0F1A7D2C29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */; };
+		0F2823F62ADFC3C10092011B /* Map17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2823F52ADFC3C10092011B /* Map17.swift */; };
 		0F2B4E3D2A7BA65A0040CAEE /* Rainbow-Card-Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2B4E3C2A7BA65A0040CAEE /* Rainbow-Card-Border.swift */; };
 		0F39A2952A7E315A00B3D7BE /* DrawingShapeSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F39A2942A7E315A00B3D7BE /* DrawingShapeSimple.swift */; };
 		0F4131532A45EAF00019F748 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4131522A45EAF00019F748 /* MapView.swift */; };
@@ -106,6 +107,7 @@
 		0F1A7D2729CC9AE400D701C3 /* LoginWithCheck+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginWithCheck+Combine.swift"; sourceTree = "<group>"; };
 		0F1A7D2929CC9AFF00D701C3 /* ValidationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationType.swift; sourceTree = "<group>"; };
 		0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithCheckCombineViewModel.swift; sourceTree = "<group>"; };
+		0F2823F52ADFC3C10092011B /* Map17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map17.swift; sourceTree = "<group>"; };
 		0F2B4E3C2A7BA65A0040CAEE /* Rainbow-Card-Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rainbow-Card-Border.swift"; sourceTree = "<group>"; };
 		0F39A2942A7E315A00B3D7BE /* DrawingShapeSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingShapeSimple.swift; sourceTree = "<group>"; };
 		0F4131522A45EAF00019F748 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 		0A34F221295BAB6A00AC6692 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0F2823F42ADFC39E0092011B /* New Group */,
 				0F5B4A712A69384600E6F64D /* Carousel */,
 				0FB78DE92A6285600078263D /* Pickers */,
 				0FB78DDB2A604C4E0078263D /* OutlineGroup */,
@@ -383,6 +386,13 @@
 			path = "LoginWithCheck+Combine";
 			sourceTree = "<group>";
 		};
+		0F2823F42ADFC39E0092011B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		0F39A2932A7E312900B3D7BE /* DrawShape */ = {
 			isa = PBXGroup;
 			children = (
@@ -395,6 +405,7 @@
 			isa = PBXGroup;
 			children = (
 				0F4131522A45EAF00019F748 /* MapView.swift */,
+				0F2823F52ADFC3C10092011B /* Map17.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -574,6 +585,7 @@
 				0F1A7D2229CC90C000D701C3 /* LoginView.swift in Sources */,
 				0AD1A782299EAD5F004B88AA /* AppContext.swift in Sources */,
 				0F53B31D2A41EE720022D84B /* ImageResizing.swift in Sources */,
+				0F2823F62ADFC3C10092011B /* Map17.swift in Sources */,
 				0A714139299D7D1000406821 /* DampingFractionBounce.swift in Sources */,
 				0A714137299D7BEB00406821 /* ReactionsView.swift in Sources */,
 				0FB78DDD2A604C620078263D /* OutlineGroupSimple.swift in Sources */,
