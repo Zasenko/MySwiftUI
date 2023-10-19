@@ -9,7 +9,6 @@ import SwiftUI
 import MapKit
 
 struct Map17: View {
-    @ObservedObject var locationManager: LocationManager
     
     //  @Namespace var mapScope
     
