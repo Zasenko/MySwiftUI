@@ -51,6 +51,8 @@
 		0F4131532A45EAF00019F748 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4131522A45EAF00019F748 /* MapView.swift */; };
 		0F53B31D2A41EE720022D84B /* ImageResizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53B31C2A41EE720022D84B /* ImageResizing.swift */; };
 		0F5B4A732A69388300E6F64D /*  SnapCarouselSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B4A722A69388300E6F64D /*  SnapCarouselSliderView.swift */; };
+		0F7E57F22AE1894A0091A0F8 /* TelFieldWithCountryCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7E57F12AE1894A0091A0F8 /* TelFieldWithCountryCodes.swift */; };
+		0F7E57F42AE189C20091A0F8 /* CountryNumbers.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F7E57F32AE189C20091A0F8 /* CountryNumbers.json */; };
 		0F84415A29F17A0F008E008B /* Line-Wrapping-Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84415929F17A0F008E008B /* Line-Wrapping-Stacks.swift */; };
 		0F84415C29F17C75008E008B /* ChildSizeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84415B29F17C75008E008B /* ChildSizeReader.swift */; };
 		0F9758122A4D85220082A8C5 /* FocusableFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9758112A4D85220082A8C5 /* FocusableFieldView.swift */; };
@@ -113,6 +115,8 @@
 		0F4131522A45EAF00019F748 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0F53B31C2A41EE720022D84B /* ImageResizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizing.swift; sourceTree = "<group>"; };
 		0F5B4A722A69388300E6F64D /*  SnapCarouselSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " SnapCarouselSliderView.swift"; sourceTree = "<group>"; };
+		0F7E57F12AE1894A0091A0F8 /* TelFieldWithCountryCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelFieldWithCountryCodes.swift; sourceTree = "<group>"; };
+		0F7E57F32AE189C20091A0F8 /* CountryNumbers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CountryNumbers.json; sourceTree = "<group>"; };
 		0F84415929F17A0F008E008B /* Line-Wrapping-Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Line-Wrapping-Stacks.swift"; sourceTree = "<group>"; };
 		0F84415B29F17C75008E008B /* ChildSizeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildSizeReader.swift; sourceTree = "<group>"; };
 		0F9758112A4D85220082A8C5 /* FocusableFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusableFieldView.swift; sourceTree = "<group>"; };
@@ -186,13 +190,14 @@
 		0A34F221295BAB6A00AC6692 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0F7E57F02AE189330091A0F8 /* Telefon */,
 				0F2823F42ADFC39E0092011B /* New Group */,
 				0F5B4A712A69384600E6F64D /* Carousel */,
 				0FB78DE92A6285600078263D /* Pickers */,
 				0FB78DDB2A604C4E0078263D /* OutlineGroup */,
 				0F53B31B2A41EE5E0022D84B /* Image */,
 				0FBB1E6A2A3AF3D900FAEEA4 /* Button */,
-				0F84415829F179FF008E008B /* Stack */,
+				0F84415829F179FF008E008B /* Tags */,
 				0FC5D33029DAEEB800711217 /* TabBar */,
 				0FC5D32D29DACB1100711217 /* List */,
 				0F0FA09B29D843A400DE75AC /* NavigationBar */,
@@ -427,12 +432,21 @@
 			path = Carousel;
 			sourceTree = "<group>";
 		};
-		0F84415829F179FF008E008B /* Stack */ = {
+		0F7E57F02AE189330091A0F8 /* Telefon */ = {
+			isa = PBXGroup;
+			children = (
+				0F7E57F32AE189C20091A0F8 /* CountryNumbers.json */,
+				0F7E57F12AE1894A0091A0F8 /* TelFieldWithCountryCodes.swift */,
+			);
+			path = Telefon;
+			sourceTree = "<group>";
+		};
+		0F84415829F179FF008E008B /* Tags */ = {
 			isa = PBXGroup;
 			children = (
 				0F84415929F17A0F008E008B /* Line-Wrapping-Stacks.swift */,
 			);
-			path = Stack;
+			path = Tags;
 			sourceTree = "<group>";
 		};
 		0FB78DDB2A604C4E0078263D /* OutlineGroup */ = {
@@ -569,6 +583,7 @@
 				0AADB1F7295DDC4600632A2A /* appetite.ttf in Resources */,
 				0AADB1F8295DDC4900632A2A /* Equinox Bold.otf in Resources */,
 				0A34F21B295BAB4200AC6692 /* Preview Assets.xcassets in Resources */,
+				0F7E57F42AE189C20091A0F8 /* CountryNumbers.json in Resources */,
 				0AADB1F9295DDC4B00632A2A /* Equinox Regular.otf in Resources */,
 				0A34F218295BAB4200AC6692 /* Assets.xcassets in Resources */,
 			);
@@ -632,6 +647,7 @@
 				0A34F228295BAD5F00AC6692 /* SafariView.swift in Sources */,
 				0F2B4E3D2A7BA65A0040CAEE /* Rainbow-Card-Border.swift in Sources */,
 				0A71412D299ACCEF00406821 /* BouncyHamburger.swift in Sources */,
+				0F7E57F22AE1894A0091A0F8 /* TelFieldWithCountryCodes.swift in Sources */,
 				0A71413F299D7DEA00406821 /* Recording.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
