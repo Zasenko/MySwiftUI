@@ -47,6 +47,7 @@
 		0F1A7D2C29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */; };
 		0F2823F62ADFC3C10092011B /* Map17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2823F52ADFC3C10092011B /* Map17.swift */; };
 		0F2B4E3D2A7BA65A0040CAEE /* Rainbow-Card-Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2B4E3C2A7BA65A0040CAEE /* Rainbow-Card-Border.swift */; };
+		0F354CB42AFE50B500594AE0 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F354CB32AFE50B500594AE0 /* CameraView.swift */; };
 		0F39A2952A7E315A00B3D7BE /* DrawingShapeSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F39A2942A7E315A00B3D7BE /* DrawingShapeSimple.swift */; };
 		0F4131532A45EAF00019F748 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4131522A45EAF00019F748 /* MapView.swift */; };
 		0F53B31D2A41EE720022D84B /* ImageResizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53B31C2A41EE720022D84B /* ImageResizing.swift */; };
@@ -65,6 +66,7 @@
 		0FD8A75429FA7847004EA3F0 /* PDFImageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8A75329FA7847004EA3F0 /* PDFImageRenderer.swift */; };
 		0FDA20272A093345008D40D2 /* ContentOffsetFromScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDA20262A093344008D40D2 /* ContentOffsetFromScrollView.swift */; };
 		0FDF12EA296F428C0014A838 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF12E9296F428C0014A838 /* CalendarView.swift */; };
+		0FE9495B2B285F370055F6CC /* CanvasDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE9495A2B285F370055F6CC /* CanvasDrawing.swift */; };
 		0FEB8FF829DC1544001ABF93 /* BaseColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB8FF729DC1544001ABF93 /* BaseColors.swift */; };
 /* End PBXBuildFile section */
 
@@ -111,6 +113,7 @@
 		0F1A7D2B29CC9B5100D701C3 /* LoginWithCheckCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithCheckCombineViewModel.swift; sourceTree = "<group>"; };
 		0F2823F52ADFC3C10092011B /* Map17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map17.swift; sourceTree = "<group>"; };
 		0F2B4E3C2A7BA65A0040CAEE /* Rainbow-Card-Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rainbow-Card-Border.swift"; sourceTree = "<group>"; };
+		0F354CB32AFE50B500594AE0 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		0F39A2942A7E315A00B3D7BE /* DrawingShapeSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingShapeSimple.swift; sourceTree = "<group>"; };
 		0F4131522A45EAF00019F748 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0F53B31C2A41EE720022D84B /* ImageResizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizing.swift; sourceTree = "<group>"; };
@@ -129,6 +132,7 @@
 		0FD8A75329FA7847004EA3F0 /* PDFImageRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFImageRenderer.swift; sourceTree = "<group>"; };
 		0FDA20262A093344008D40D2 /* ContentOffsetFromScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentOffsetFromScrollView.swift; sourceTree = "<group>"; };
 		0FDF12E9296F428C0014A838 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		0FE9495A2B285F370055F6CC /* CanvasDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasDrawing.swift; sourceTree = "<group>"; };
 		0FEB8FF729DC1544001ABF93 /* BaseColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,6 +169,7 @@
 				0AADB1E8295DD4B600632A2A /* Info.plist */,
 				0A34F213295BAB4100AC6692 /* MySwiftUIApp.swift */,
 				0A34F215295BAB4100AC6692 /* ContentView.swift */,
+				0FE949592B285F200055F6CC /* Canva-Drawing */,
 				0F39A2932A7E312900B3D7BE /* DrawShape */,
 				0FD8A75229FA7839004EA3F0 /* PDF */,
 				0FEB8FF629DC152E001ABF93 /* Colors */,
@@ -190,8 +195,8 @@
 		0A34F221295BAB6A00AC6692 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0F354CB22AFE50A700594AE0 /* Camera */,
 				0F7E57F02AE189330091A0F8 /* Telefon */,
-				0F2823F42ADFC39E0092011B /* New Group */,
 				0F5B4A712A69384600E6F64D /* Carousel */,
 				0FB78DE92A6285600078263D /* Pickers */,
 				0FB78DDB2A604C4E0078263D /* OutlineGroup */,
@@ -391,11 +396,12 @@
 			path = "LoginWithCheck+Combine";
 			sourceTree = "<group>";
 		};
-		0F2823F42ADFC39E0092011B /* New Group */ = {
+		0F354CB22AFE50A700594AE0 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
+				0F354CB32AFE50B500594AE0 /* CameraView.swift */,
 			);
-			path = "New Group";
+			path = Camera;
 			sourceTree = "<group>";
 		};
 		0F39A2932A7E312900B3D7BE /* DrawShape */ = {
@@ -514,6 +520,14 @@
 			path = Calendar;
 			sourceTree = "<group>";
 		};
+		0FE949592B285F200055F6CC /* Canva-Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				0FE9495A2B285F370055F6CC /* CanvasDrawing.swift */,
+			);
+			path = "Canva-Drawing";
+			sourceTree = "<group>";
+		};
 		0FEB8FF629DC152E001ABF93 /* Colors */ = {
 			isa = PBXGroup;
 			children = (
@@ -617,6 +631,7 @@
 				0FEB8FF829DC1544001ABF93 /* BaseColors.swift in Sources */,
 				0A71412F299AD02E00406821 /* Spring.swift in Sources */,
 				0F84415A29F17A0F008E008B /* Line-Wrapping-Stacks.swift in Sources */,
+				0F354CB42AFE50B500594AE0 /* CameraView.swift in Sources */,
 				0FDF12EA296F428C0014A838 /* CalendarView.swift in Sources */,
 				0F39A2952A7E315A00B3D7BE /* DrawingShapeSimple.swift in Sources */,
 				0FBB1E6C2A3AF3EA00FAEEA4 /* SimpleButton.swift in Sources */,
@@ -647,6 +662,7 @@
 				0A34F228295BAD5F00AC6692 /* SafariView.swift in Sources */,
 				0F2B4E3D2A7BA65A0040CAEE /* Rainbow-Card-Border.swift in Sources */,
 				0A71412D299ACCEF00406821 /* BouncyHamburger.swift in Sources */,
+				0FE9495B2B285F370055F6CC /* CanvasDrawing.swift in Sources */,
 				0F7E57F22AE1894A0091A0F8 /* TelFieldWithCountryCodes.swift in Sources */,
 				0A71413F299D7DEA00406821 /* Recording.swift in Sources */,
 			);
