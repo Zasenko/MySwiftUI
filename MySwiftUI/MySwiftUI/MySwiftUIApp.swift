@@ -11,7 +11,10 @@ import SwiftUI
 struct MySwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            CanvasDrawing()
+            HeroWrapper {
+                HeroHomeView()
+            }
+           // CanvasDrawing()
         }
     }
 }

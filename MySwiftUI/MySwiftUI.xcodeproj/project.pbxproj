@@ -29,6 +29,7 @@
 		0A71413D299D7D6A00406821 /* StiffnessDamping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71413C299D7D6A00406821 /* StiffnessDamping.swift */; };
 		0A71413F299D7DEA00406821 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71413E299D7DEA00406821 /* Recording.swift */; };
 		0A77D00629A3C650007428E2 /* SnapToCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A77D00529A3C650007428E2 /* SnapToCorners.swift */; };
+		0A78019A2B8B212700D568C4 /* HeroWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7801992B8B212700D568C4 /* HeroWrapper.swift */; };
 		0A93031729A3C40500C558A8 /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93031629A3C40500C558A8 /* CustomToggle.swift */; };
 		0AADB1F1295DD6DB00632A2A /* CustomFontsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AADB1F0295DD6DB00632A2A /* CustomFontsView.swift */; };
 		0AADB1F7295DDC4600632A2A /* appetite.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AADB1E9295DD53300632A2A /* appetite.ttf */; };
@@ -94,6 +95,7 @@
 		0A71413C299D7D6A00406821 /* StiffnessDamping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StiffnessDamping.swift; sourceTree = "<group>"; };
 		0A71413E299D7DEA00406821 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
 		0A77D00529A3C650007428E2 /* SnapToCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapToCorners.swift; sourceTree = "<group>"; };
+		0A7801992B8B212700D568C4 /* HeroWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroWrapper.swift; sourceTree = "<group>"; };
 		0A93031629A3C40500C558A8 /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
 		0AADB1E8295DD4B600632A2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0AADB1E9295DD53300632A2A /* appetite.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = appetite.ttf; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 		0A714128299AC12A00406821 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				0A7801982B8B20D600D568C4 /* Hero */,
 				0A77D00429A3C62B007428E2 /* View Position */,
 				0A714129299AC13400406821 /* Spring */,
 				0F2B4E3C2A7BA65A0040CAEE /* Rainbow-Card-Border.swift */,
@@ -297,6 +300,14 @@
 				0A77D00529A3C650007428E2 /* SnapToCorners.swift */,
 			);
 			path = "View Position";
+			sourceTree = "<group>";
+		};
+		0A7801982B8B20D600D568C4 /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				0A7801992B8B212700D568C4 /* HeroWrapper.swift */,
+			);
+			path = Hero;
 			sourceTree = "<group>";
 		};
 		0A93031829A3C42400C558A8 /* CustomToggle */ = {
@@ -653,6 +664,7 @@
 				0A34F232295C5D3200AC6692 /* CallButton.swift in Sources */,
 				0F0FA09F29D843CA00DE75AC /* HideWhenScrolling.swift in Sources */,
 				0F5B4A732A69388300E6F64D /*  SnapCarouselSliderView.swift in Sources */,
+				0A78019A2B8B212700D568C4 /* HeroWrapper.swift in Sources */,
 				0A93031729A3C40500C558A8 /* CustomToggle.swift in Sources */,
 				0A34F225295BAC0400AC6692 /* WebViewButtons.swift in Sources */,
 				0A7141212999108300406821 /* Multi-line-TextField.swift in Sources */,
